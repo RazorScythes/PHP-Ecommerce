@@ -1,0 +1,122 @@
+#wrap{
+	width:auto;
+	height:700px;
+	position:relative;
+}
+#nav{
+	background:linear-gradient(#323232,#191919);
+	background-size: cover;
+	background-attachment: fixed;
+	width:100%;
+	height:25px;
+	position:relative;
+	z-index:100;
+}
+#nav a{
+	font-weight: bold;
+	text-decoration:none;
+	color:#fff;
+}	
+#nav p{
+	font-size:12px;
+	font-weight: bold;
+	color:#fff;
+}
+#nav ul{
+	list-style:none;
+}
+#nav ul li{
+	float:right;
+	padding:5px;
+}
+#nav a:hover{	
+	background-image: linear-gradient(#4B0082,#9400D3);
+}
+#nav ul ul{
+	display:none;
+	margin:0px;
+}
+#nav ul li:hover > ul{
+	margin-left:50px;
+	position:absolute;
+	display:block;
+}
+header{
+	background: linear-gradient(#323232,#191919);
+	background-size: cover;
+	background-attachment: fixed;
+	top:3%;
+	width:100%;
+	height:148px;
+	position:absolute;
+	z-index:99;
+}
+header section{
+	background-image: url("../Images/Headerbanner.png");
+	background-size: cover;
+	top:4%;
+	width:100%;
+	height:108px;
+	z-index:-999;
+}
+header section img{
+	margin-top:15px;
+}
+header section ul{
+	position:relative;
+	list-style:none;
+	float:right;
+	margin-top:35px;
+	left:-3%;
+	display:flex;
+}
+header section ul a{
+	text-align:center;
+	font-size:14px;
+	text-decoration:none;
+	color:#fff;
+	transition: 0.5s;
+}
+header section ul a:hover{
+	color:#00CED1;
+}
+header section ul i{
+	width:50px;
+	height:20px;
+}
+
+header nav ul{
+	list-style:none;
+	margin-left:20px;
+}
+header nav a{
+	font-weight: bold;
+	text-decoration:none;
+	color:#fff;
+	transition: 0.5s;
+}
+.home{
+	background-image:linear-gradient(#FFA500,#FF4500);
+}
+.home:hover{
+	background-image:linear-gradient(#FFD700,#FF8C00);
+}
+header nav ul li{
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+	background-image: linear-gradient(#696969,#39464F);
+	float:left;
+	width:120px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+}
+header nav ul li:hover{
+	background-image: linear-gradient(#708090,#696969);
+}	
+header nav ul ul,header section ul ul{
+	display:none;
+	margin:0px;
+}
+header nav ul li:hover > ul{
+	display:block;
+}

@@ -1,0 +1,67 @@
+h1{
+	margin: 0px;
+	padding: 5px 0 10px;
+	text-align: center;
+	font-size: 30px;
+}
+h5{
+	margin: 0px;
+	padding: 5px 0 10px;
+	text-align: center;
+}
+.forgotpass{
+	width: 60%;
+	height: auto;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	top: 55%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+	padding: 70px 30px;
+}
+.forgotpass label{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+.forgotpass input{
+	width:62%;
+	margin: 20px 20px 0 120px;
+	
+}
+.forgotpass input[type="text"], input[type="password"], input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 15px;
+}
+.forgotpass input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius:20px;
+}
+.forgotpass input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.forgotpass a{
+	text-decoration: none;
+	font-size:15px;
+	line-height:40px;
+	color: darkgrey;
+	margin-left:280px;
+}
+.forgotpass a:hover{
+	color: #ffc107;
+}

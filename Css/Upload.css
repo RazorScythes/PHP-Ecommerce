@@ -1,0 +1,166 @@
+#Uploadform{
+	width:750px;
+	height:600px;
+	background:rgba(30,144,255,.1);
+	position:absolute;
+	left:30%;
+	top:3.5%;
+}
+#view{
+	width:700px;
+	height:550px;
+	background: rgba(255,255,255,.5);
+	margin-left:25px;
+	margin-top:25px;
+	overflow:auto;
+}
+#manage{
+	width:700px;
+	height:550px;
+	background: rgba(255,255,255,.5);
+	margin-left:25px;
+	margin-top:25px;
+	overflow:auto;
+}
+#upload{
+	width:600px;
+	height:550px;
+	background: rgba(255,255,255,.5);
+	margin-left:50px;
+	margin-top:30px;
+}
+#upload h2,#view h2,#manage h2{
+	padding:30px;
+	font-size:35px;
+	text-decoration:underline;
+}
+#upload img{
+	width:150px;
+	height:150px;
+	margin-right:350px;
+}
+#upload input[type=file]{
+	top:130px;
+	position:absolute;
+	left:270px;
+}
+.productname{
+	position:absolute;
+	left:270px;
+	top:170px;
+}
+.productname label,.category label,.description label,.inventory label,.price label{
+	float:left;
+	font-family:Georgia;
+}
+.productname input[type="text"]{
+	width:300px;
+	height:25px;
+	font-family:Georgia;
+}
+.upload{
+	position:absolute;
+	padding: 7px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	font-size: 12px;
+	background:white;
+	width:70px;
+	right:150px;
+	bottom:50px;
+}
+.category{
+	position:absolute;
+	left:270px;
+	top:230px;
+}
+.category select,.inventory select{
+	padding: 7px;
+	border: 1px solid gray;
+	  border-radius: 3px;
+	  opacity: 0.85;
+	  font-size: 12px;
+	  text-decoration: none; 
+	  margin-bottom:35px;
+	  float:left;
+}
+.price{
+	position:absolute;
+	right:175px;
+	top:231px;
+}
+.price input[type="text"]{
+	width:100px;
+	height:25px;
+	font-family:Georgia;
+}
+.inventory{
+	position:absolute;
+	right:300px;
+	top:230px;
+}
+.inventory select{
+	width:70px;
+}
+.description{
+	position:absolute;
+	left:100px;
+	top:300px;
+}
+.description textarea{
+	width:500px;
+	height:180px;
+	font-family:Georgia;
+	font-size:16px;
+}
+#table{
+	position:absolute;
+	margin-left:20px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	word-wrap: break-word;
+	max-width:400px;
+	background:white;
+}
+th,td{
+	margin:0px;
+	border:1px solid gray;
+}
+
+td{
+	word-wrap: break-word;
+	max-width: 150px;
+	padding:10px;
+}
+#prodname{
+	padding:5px 90px;
+}
+#category{
+	padding:5px 30px;
+}
+#purchased{
+	padding:5px 5px;
+}
+#inventory{
+	padding:5px 20px;
+}
+#action{
+	padding:5px 20px;
+}
+.btn{
+	width:70px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	padding:5px;
+	font-weight:bold;
+	color:red;
+}
+.note{
+	color:gray;
+	font-size:14px;
+	margin-right:160px;
+	padding-bottom:10px;
+}

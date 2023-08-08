@@ -1,0 +1,130 @@
+#container{
+	background-image: linear-gradient(#F0FFFF,#FFF5EE);
+	background-size: cover;
+	background-attachment: fixed;
+	margin:0;
+	top:21%;
+	width:auto;
+	height:auto;
+	text-align:center;
+	position:relative;
+	padding: 2% 0 50% 0;
+}
+h1{
+	font-size:45px;
+	background: -webkit-linear-gradient(#32CD32,#008000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#table{
+	position:relative;
+	margin-left:60px;
+	margin-top:50px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	word-wrap: break-word;
+	max-width:400px;
+}
+th{
+	background:white;
+}
+th,td{
+	margin:0px;
+	border:1px solid gray;
+}
+
+td{
+	word-wrap: break-word;
+	max-width: 150px;
+	padding:20px;
+	text-align:center;
+}
+#prodname{
+	padding:5px 90px;
+}
+#category{
+	padding:5px 30px;
+}
+#seller{
+	padding:5px 90px;
+}
+#price{
+	padding:5px 40px;
+}
+#quantity{
+	padding:5px 20px;
+}
+#action{
+	padding:5px 20px;
+}
+#total,#totalprice{
+	font-weight:bold;
+}
+.btn:hover{
+	text-decoration:underline;
+}
+.btn a{
+	text-decoration:none;
+	color:#000;
+}
+.btn{
+	width:70px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	padding:0px;
+	font-weight:bold;
+	color:red;
+}
+.btnall:hover{
+	text-decoration:underline;
+}
+.btnall a{
+	text-decoration:none;
+	color:#000;
+}
+.btnall{
+	width:100px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	padding:0px;
+	font-weight:bold;
+	color:red;
+}
+.hide{
+	visibility: hidden;
+}
+#purchase{
+	width:150px;
+	background-color: rgb(240,58,83);
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    outline:none;
+	padding:10px;
+	font-weight:bold;
+	color:#F8F8FF;
+	font-size:20px;
+	border-radius:5px;
+	float:right;
+	margin-right:70px;
+	margin-top:30px;
+}
+#purchase:hover{
+	background:#DC143C;
+}
+.note{
+	width:350px;
+	color:gray;
+	font-size:12px;
+	float:right;
+	margin-right:-20px;
+	margin-top:45px;
+}

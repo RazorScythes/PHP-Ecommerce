@@ -1,0 +1,101 @@
+body, html{
+	width:1100px;
+	margin: auto;
+	background: url("../IndexBg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+h1{
+	margin: 0px;
+	padding: 5px 0 10px;
+	text-align: center;
+	font-size: 30px;
+}
+#container4{
+	margin:0;
+	top:21%;
+	width:100%;
+	height:700px;
+	position:relative;
+}
+.registerbox{
+	width: 60%;
+	height: auto;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+	padding: 70px 30px;
+}
+.registerbox span{
+	font-size:15px;
+	line-height:30px;
+	color: #ff0000;
+}
+.registerbox input{
+	//width:100%;
+	margin-bottom: 20px;
+}
+.registerbox input[type="text"], input[type="password"], input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 15px;
+}
+.registerbox label{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+.registerbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	width:75%;
+	background-color: #FFD700;
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius:10px;
+	margin-left:75px;
+}
+.Fullname{
+	width:32.8%;
+}
+.EmailandPass{
+	width:100%;
+}
+.registerbox input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: orange;
+	color: #000;
+}
+.registerbox a{
+	text-decoration: none;
+	font-size:15px;
+	line-height:30px;
+	color: darkgrey;
+	margin-left:170px;
+}
+.registerbox a:hover{
+	color: #ffc107;
+}
+.registerbox select{
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  margin: 7px 0;
+  opacity: 0.85;
+  font-size: 12px;
+  text-decoration: none; 
+  margin-bottom:35px;
+}
